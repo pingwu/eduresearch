@@ -163,5 +163,3 @@ cython_debug/
 
 # DB files
 db/
-
-uv.lock
