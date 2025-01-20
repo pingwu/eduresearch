@@ -1,0 +1,104 @@
+analyze_target_program_task:
+  description: >
+    Analyze {Target_Institution}'s Generative AI Development program, focusing on curriculum,
+    delivery methods, partnerships, and job placement outcomes. Identify unique strengths
+    and areas for improvement, particularly for career transitions into {RoleType} roles.
+  expected_output: >
+    A detailed profile of {Target_Institution}'s {Program} program.
+    Output including program titles, registration URL, price ranges, duration, service
+    models, unique features, potential gaps, target audiene, and success story summary.
+
+analyze_government_programs:
+  description: >
+    Research WIOA/EDD approved AI training providers, analyzing their program structure,
+    funding mechanisms, compliance requirements, and success metrics. Include analysis
+    of application processes and eligibility requirements for career transition programs.
+    You do deep search on https://edd.ca.gov/en/jobs_and_training/Eligible_Training_Provider_List/ 
+    and https://www.careeronestop.org/LocalHelp/EmploymentAndTraining/find-WIOA-training-programs.aspx
+  expected_output: >
+    Comprehensive report on government-approved AI training programs or providers.
+    Output including top 10 program titles, registration URL, price ranges, duration, service
+    models, unique features, potential gaps, target audiene, and success story summary.
+
+evaluate_traditional_education:
+  description: >
+    Analyze {Program} programs at accredited colleges and universities,
+    focusing on programs designed for career transitions into {RoleType} roles.
+    Consider curriculum design, faculty expertise, industry partnerships, and career services.
+  expected_output: >
+    Detailed analysis of traditional education offerings in {Program}.
+    Output including top 10 school program titles, registration URL, price ranges, duration, service
+    models, unique features, potential gaps, target audiene, and success story summary.
+
+assess_online_platforms:
+  description: >
+    Research major online learning platforms offering AI training, including
+    MOOCs, bootcamps, and certification programs. Focus on programs suitable for
+    career transitions into {RoleType} roles.
+  expected_output: >
+    Comparative analysis of online {Program} options.
+    Output including top 10 program title, registration URL, price ranges, duration, service
+    models, unique features, potential gaps, target audiene, and success story summary.
+
+analyze_coaching_market:
+  description: >
+    Research the private coaching and tutoring market for {Program}, including
+    programs specifically designed for {TargetAudience} professionals transitioning into {RoleType} roles utilizing AI technology.
+  expected_output: >
+    Market analysis of private AI coaching options.
+    Output including top 10 program titles, registration URL, price ranges, duration, service
+    models, unique features, potential gaps, target audiene, and success story summary.
+
+evaluate_corporate_programs:
+  description: >
+    Analyze corporate-sponsored {Program} initiatives, focusing on programs that
+    prepare employees for {RoleType} roles leveraging AI technology.
+    Consider alignment with industry needs and career advancement opportunities.
+  expected_output: >
+    Report on corporate {Program} training landscape, including top 10 enterprises, with company name, program types, investment
+    levels, ROI, and employee development outcomes.
+
+assess_vendor_training:
+  description: >
+    Research training programs offered by {Program} platform providers and technology vendors.
+    Focus on certifications and training relevant to {RoleType} professionals.
+  expected_output: >
+    Comprehensive overview of vendor-sponsored {Program} training options, including
+    top 10 valueable certifications, program titles, registration URL, price ranges, duration, service
+    models, certification paths and market value of credentials.
+
+identify_innovations:
+  description: >
+    Scout for innovative approaches in AI education, particularly those effective
+    for {TargetAudience}. Include emerging technologies, new delivery models, YouTube channel, LinkedIn Learning, Yalp,
+    and alternative credentialing systems.
+  expected_output: >
+    Report on emerging trends and innovations in {Program}, including
+    assessment of their potential impact and adoption timeline. List the top 10 name of the Channels or social media handle with details of 
+    the costs if there are membership based subscriber users numbers, unique topics, and their net promoting scores.
+
+synthesize_recommendations:
+  description: >
+    Integrate findings from all analysis streams to develop comprehensive
+    recommendations for {Target_Institution}'s strategy development and market positioning.
+  expected_output: >
+    Assembly all the above findings and analysis; put them in a tabulate format for clear to compare by provider, category, costs, 
+    program design overview, delvery methods, partnerships, differentiation strategy,
+    summary of users feedback to cover both positive and negative.
+
+compare_programs_task:
+  description: >
+    Compare {Target_Institution}'s program with competitor offerings to identify similarities,
+    gaps, and differentiation opportunities. Consider alignment with AI job market
+    demands and needs of {TargetAudience} transitioning to {RoleType} roles.
+  expected_output: >
+    A comparison report highlighting {Target_Institution}'s competitive position in
+    the AI education market.
+
+develop_recommendations_task:
+  description: >
+    Based on the comparison, develop actionable recommendations for {Target_Institution}
+    to enhance its AI program and better align with market demands for {RoleType} roles leveraging AI technology.
+  expected_output: >
+    A strategic plan for {Target_Institution}, including recommendations for curriculum
+    updates, extr curriculum activities, partnerships, promoting entrepreneurship/start up clubs, marketing strategy, and job placement initiatives.
